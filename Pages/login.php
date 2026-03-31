@@ -10,7 +10,7 @@ if (isset($_SESSION['isLogin'])) {
 // Handle signup
 if (isset($_POST['signup'])) {
     $semail = $_POST['remail'];
-    $sname = $_POST['rname'];
+    $sname = $_POST['rname'];AVASH KHADKA
     $spassword = $_POST['rpass'];
     $scpassword = $_POST['rcpass'];
 
